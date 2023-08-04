@@ -25,9 +25,9 @@ class MyApp extends StatelessWidget {
       home: ShowCaseWidget(
         //autoPlay: true,
         //enableAutoPlayLock: true,
-        
+
         builder: Builder(
-          builder: (context)=>  Stack(
+          builder: (context)=>  const Stack(
             children: [
               DrawerPage(),
               HomePage(),
